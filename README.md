@@ -85,5 +85,5 @@ graph LR
 
 * 🌐 **Website & Portfolio :** [https://kerdjou.dev](https://kerdjou.dev)
 * 💼 **LinkedIn :** [linkedin.com/in/kerdjou-tigroudja](https://www.linkedin.com/in/kerdjou-tigroudja/)
-* 🎓 **Google Developer Profile :** [g.dev/kairosium](https://g.dev/kairosium)
+* 🎓 **Google Developer Profile :** [g.dev/kerdjoutigroudja](https://g.dev/kerdjoutigroudja)
 * 📩 **Direct Inquiry :** [contact@kerdjou.dev](mailto:contact@kerdjou.dev)
