@@ -1,4 +1,4 @@
-# Hi there, I'm Kerdjou Tigroudja 👋
+# Kerdjou Tigroudja
 
 [![Hub Web](https://img.shields.io/badge/Hub_Web-kerdjou.dev-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kerdjou.dev)
 [![GCP Sovereign](https://img.shields.io/badge/GCP_Region-europe--west9_(Paris)-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com)
@@ -14,30 +14,30 @@
 ```
 
 > **I build deterministic, observable, and sovereign multi-agent systems on Google Cloud Platform.**  
-> 100% self-taught engineer. My credentials are not paper diplomas; they are auditable codebases, reproducible test suites, and live serverless services.
+> Self-taught engineer. My credentials are auditable codebases, reproducible test suites, and live serverless services.
 
 ---
 
-## 🏛️ Proof of Work — Flagship Trio
+## 1. Proof of Work — Flagship Trio
 
-### 1️⃣ [K-SCM — Sovereign Compliance Mesh](https://github.com/kerdjou-tigroudja/k-scm-showcase) `[Operational — Live Cloud Run]`
+### 1. [K-SCM — Sovereign Compliance Mesh](https://github.com/kerdjou-tigroudja/k-scm-showcase) `[Operational — Live Cloud Run]`
 * **Theme :** Universal static analysis & pre-audit tool for **EU AI Act** & **GDPR** compliance across multi-language repositories (Python, TypeScript, Go, Java) and IaC configurations (Terraform, Dockerfiles).
 * **Live Architecture :** Deployed on Cloud Run in Paris (`europe-west9`), serving Agent Card A2A specifications on `/.well-known/agent-card.json`.
 * **Grounding & Storage :** Sovereign RAG pipeline powered by AlloyDB for PostgreSQL (`pgvector`) under VPC Service Controls.
-* **Deterministic Quality :** **62/62 integration tests PASSED**, RAGAS Context Precision of **0.9750** & Context Recall of **0.9320** evaluated via `agents-cli eval`.
+* **Deterministic Quality :** **62/62 integration tests PASSED**, **99 unit tests PASSED**, RAGAS Context Precision of **0.9750** & Context Recall of **0.9320** evaluated via `agents-cli eval`.
 * **GitOps Remediation :** Automated proposal of MADR Architecture Decision Records and GitHub Pull Requests with Human-in-the-Loop review.
 * **Public Vitrine :** [`k-scm-showcase`](https://github.com/kerdjou-tigroudja/k-scm-showcase) & [`k-scm-mock-target-showcase`](https://github.com/kerdjou-tigroudja/k-scm-mock-target-showcase).
 
-### 2️⃣ [K-OIT — Operations Incident Triage](https://github.com/kerdjou-tigroudja) `[Specified / SRE Copilot]`
+### 2. [K-OIT — Operations Incident Triage](https://github.com/kerdjou-tigroudja) `[In Development — Sprint 1]`
 * **Theme :** Autonomous SRE / DevOps copilot for incident triage, cross-signal log/trace correlation via OpenTelemetry, and MTTR reduction.
-* **Core Modules :** Real-time anomaly correlation, alert deduplication to tackle alert fatigue, and Chaos Engineering Simulator (5 production incident scenarios).
+* **Core Modules :** Real-time anomaly correlation, alert deduplication to tackle alert fatigue, and Chaos Engineering Simulator (5 production incident scenarios, tickets `KER-211` à `KER-213`).
 
-### 3️⃣ [K-PDS — Predictive Data Sandbox](https://github.com/kerdjou-tigroudja) `[Specified / Zero-Trust Analytics]`
+### 3. [K-PDS — Predictive Data Sandbox](https://github.com/kerdjou-tigroudja) `[Architectural Concept]`
 * **Theme :** Big Data exploration in BigQuery (`europe-west9`), in-database predictive modeling with BigQuery ML (`ARIMA_PLUS`), and dynamic code execution within a Zero-Trust kernel sandbox (gVisor).
 
 ---
 
-## 🛠️ The Sovereign GCP Stack
+## 2. The Sovereign GCP Stack
 
 ```mermaid
 graph LR
@@ -72,18 +72,18 @@ graph LR
 
 ---
 
-## 📈 Engineering Principles
+## 3. Engineering Principles
 
-* 🔒 **Human-in-the-Loop by Design :** Autonomous analysis with manual review gates on write operations.
-* 📊 **Zero-Black-Box Observability :** Every LLM token, prompt, tool call, and latency metric is logged into BigQuery.
-* 🇪🇺 **European Data Sovereignty :** Infrastructure hosted in `europe-west9` (Paris) with customer-managed encryption keys.
-* 🧪 **Scientific Evaluation :** Golden sets and benchmark metrics evaluated systematically before deployment.
+* **Human-in-the-Loop by Design :** Autonomous analysis with manual review gates on write operations.
+* **Zero-Black-Box Observability :** Every LLM token, prompt, tool call, and latency metric is logged into BigQuery.
+* **European Data Sovereignty :** Infrastructure hosted in `europe-west9` (Paris) with customer-managed encryption keys.
+* **Scientific Evaluation :** Golden sets and benchmark metrics evaluated systematically before deployment.
 
 ---
 
-## 📬 Connect & Collaborate
+## 4. Connect & Collaborate
 
-* 🌐 **Website & Portfolio :** [https://kerdjou.dev](https://kerdjou.dev)
-* 💼 **LinkedIn :** [linkedin.com/in/kerdjou-tigroudja](https://www.linkedin.com/in/kerdjou-tigroudja/)
-* 🎓 **Google Developer Profile :** [g.dev/kerdjoutigroudja](https://g.dev/kerdjoutigroudja)
-* 📩 **Direct Inquiry :** [contact@kerdjou.dev](mailto:contact@kerdjou.dev)
+* **Website & Portfolio :** [https://kerdjou.dev](https://kerdjou.dev)
+* **LinkedIn :** [linkedin.com/in/kerdjou-tigroudja](https://www.linkedin.com/in/kerdjou-tigroudja/)
+* **Google Developer Profile :** [g.dev/kerdjoutigroudja](https://g.dev/kerdjoutigroudja)
+* **Direct Inquiry :** [contact@kerdjou.dev](mailto:contact@kerdjou.dev)
