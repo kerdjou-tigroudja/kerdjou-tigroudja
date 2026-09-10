@@ -28,9 +28,12 @@
 * **GitOps Remediation :** Automated proposal of MADR Architecture Decision Records and GitHub Pull Requests with Human-in-the-Loop review.
 * **Public Vitrine :** [`k-scm-showcase`](https://github.com/kerdjou-tigroudja/k-scm-showcase) & [`k-scm-mock-target-showcase`](https://github.com/kerdjou-tigroudja/k-scm-mock-target-showcase).
 
-### 2. [K-OIT — Operations Incident Triage](https://github.com/kerdjou-tigroudja) `[In Development — Sprint 1]`
-* **Theme :** Autonomous SRE / DevOps copilot for incident triage, cross-signal log/trace correlation via OpenTelemetry, and MTTR reduction.
-* **Core Modules :** Real-time anomaly correlation, alert deduplication to tackle alert fatigue, and Chaos Engineering Simulator (5 production incident scenarios, tickets `KER-211` à `KER-213`).
+### 2. [K-OIT — Operations Incident Triage](https://github.com/kerdjou-tigroudja/k-oit-showcase) `[Operational — Live Cloud Run]`
+* **Theme :** Autonomous SRE copilot for incident triage, cross-signal log/trace correlation via OpenTelemetry, and MTTR reduction.
+* **Live Architecture :** Deployed on Cloud Run in Paris (`europe-west9`), serving Agent Card A2A specifications on `/.well-known/agent-card.json` with BigQuery Agent Analytics.
+* **Deterministic Quality :** **10/10 SRE Golden Set scenarios PASSED (100.0%)**, **14 unit tests PASSED (100%)**, $75.0\%$ simulated MTTR reduction, $0.15\text{ ms}$ average decision latency.
+* **Human-in-the-Loop Protocol :** Strict non-destructive assessment generating validated mitigation runbooks with rollback scripts submitted for on-call engineer approval.
+* **Public Vitrine :** [`k-oit-showcase`](https://github.com/kerdjou-tigroudja/k-oit-showcase).
 
 ### 3. [K-PDS — Predictive Data Sandbox](https://github.com/kerdjou-tigroudja) `[Architectural Concept]`
 * **Theme :** Big Data exploration in BigQuery (`europe-west9`), in-database predictive modeling with BigQuery ML (`ARIMA_PLUS`), and dynamic code execution within a Zero-Trust kernel sandbox (gVisor).
